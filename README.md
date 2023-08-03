@@ -2,7 +2,7 @@
 Account Linking: Phone Number to Google in Firebase Authentication
 
 ## Project Description
-This web application project demonstrates the implementation of "Sign-in with Google" and "Register with Phone" features using Firebase Authentication. The application allows users to sign in using their Google accounts or register with their phone numbers to access the platform's features and services.
+To link a phone number to a Google account in Firebase Authentication, you can allow users who have signed in with their Google accounts to associate a phone number with their existing Google authentication. This enables them to use the linked phone number for additional authentication purposes, such as passwordless sign-ins or two-factor authentication.
 
  ### Prerequisites
 Before getting started, make sure you have the following set up:
@@ -47,7 +47,7 @@ Successful Authentication: Once authenticated, you will be redirected back to th
 With Firebase Authentication set up and integrated into your application, you can easily add user login functionality, protect specific routes or content, and personalize user experiences based on their authentication status. Always ensure you handle authentication securely, and refer to the official Firebase documentation for detailed information on additional features and best practices.
 
 ## Project Priview
-![20230727_101127](https://github.com/saiinfo/Sign-in-with-Google-and-Register-with-Phone-using-Firebase-Authentication/assets/26924010/dd8b8d7b-ad9c-40d3-a219-090bd13ca8be)
+![20230803_160639](https://github.com/saiinfo/Account-Linking-Phone-Number-to-Google-in-Firebase-Authentication/assets/26924010/834590a5-3b55-4c45-b10a-e6722f8c2155)
 
 
 
