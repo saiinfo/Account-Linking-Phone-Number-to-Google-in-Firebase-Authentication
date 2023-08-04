@@ -2,7 +2,8 @@
 Account Linking: Phone Number to Google in Firebase Authentication
 
 ## Project Description
-To link a phone number to a Google account in Firebase Authentication, you can allow users who have signed in with their Google accounts to associate a phone number with their existing Google authentication. This enables them to use the linked phone number for additional authentication purposes, such as passwordless sign-ins or two-factor authentication.
+This project demonstrates how to implement phone number authentication and link it to a Google account with email using Firebase Authentication in a React application. The implementation allows users to sign in with their Google account, and if they haven't linked their phone number, they can do so during the sign-in process.
+
 
  ### Prerequisites
 Before getting started, make sure you have the following set up:
@@ -38,7 +39,14 @@ b. Access the project:
    - Open a web browser.
    - Enter the URL (e.g., `http://localhost:3000/`).
 
-c.Access the application in your browser and test the "Sign-in with Google" and "Register with Phone" functionalities.
+c.User clicks "Get Started" and enters their phone number in the registration form.
+Firebase sends an OTP to the provided phone number for verification.
+
+The user enters the OTP received via SMS, and Firebase confirms the verification.
+
+If the user is already signed in with a Google account, the Google provider is linked to the phone number account.
+
+Once the phone number is successfully linked, the user is signed in with their Google account and redirected to the desired route.
 
 
 Successful Authentication: Once authenticated, you will be redirected back to the application and shown a welcome page.
